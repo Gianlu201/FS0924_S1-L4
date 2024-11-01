@@ -3,8 +3,9 @@ header,
 main,
 footer {
     width: 90%;
-    margin: 1.5em auto;
+    margin: 1.8em auto;
     box-shadow: 3px 3px 5px gray;
+    box-sizing: border-box;
 }
 
 body {
@@ -25,13 +26,13 @@ header {
     margin-top: 2.5em;
 }
 
-header h1,
+header h2,
 header nav li {
     font-size: 1.2em;
     font-weight: 500;
 }
 
-header h1 {
+header h2 {
     margin: 1.5em;
 }
 
@@ -46,6 +47,54 @@ header nav {
 }
 
 /* MAIN */
+main {
+    background-color: white;
+    padding: 2.5em 1.5em;
+}
+
+main section h1 {
+    font-size: 2.2em;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+main section p {
+    margin: 1.3em 0;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+main section p:first-of-type {
+    color: #A0A2A2;
+}
+
+main strong.important {
+    font-weight: 600;
+    color: #AA2072;
+}
+
+main section li {
+    margin-left: 2em;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+main section ul li {
+    list-style-type: disc;    
+
+}
+
+main section code {
+    border: 1px solid #A7AFA9;
+    background-color: #E1E5E6;
+    padding: 1px;
+    border-radius: 8px;
+}
+
+main section ol li {
+    list-style-type: decimal;
+}
+
 
 
 
