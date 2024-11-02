@@ -252,3 +252,8 @@ footer p:first-of-type {
 footer p:last-of-type {
     margin-top: 0.3em;
 }
+
+footer p a {
+    color: #FF00FE;
+    font-weight: 600;
+}
