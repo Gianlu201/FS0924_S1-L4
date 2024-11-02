@@ -16,7 +16,7 @@ body {
 
 /* HEADER */
 header {
-    background-color: #0088AA;
+    background: linear-gradient(to bottom, #0099C7, #027488);
     text-align: center;
     color: white;
 }
@@ -98,10 +98,6 @@ main strong.important {
 #articolo ol li {
     list-style-type: decimal;
 }
-
-
-
-
 
 
 
@@ -236,3 +232,23 @@ aside article > p:last-of-type {
 
 
 /* FOOTER */
+footer {
+    padding: 1.5em 1em 2.5em;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, #005566, #2E3E3B);
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+footer p:first-of-type {
+    margin-bottom: 1em;
+}
+
+footer p:last-of-type {
+    margin-top: 0.3em;
+}
